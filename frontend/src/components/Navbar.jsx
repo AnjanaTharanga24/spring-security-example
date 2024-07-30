@@ -7,9 +7,9 @@ export default function Navbar() {
     const { user, logout } = useContext(AuthContext);
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark text-white">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark text-white p-4">
             <div className="container">
-                <Link className="navbar-brand text-white" to="/">Your Logo</Link>
+                <Link className="navbar-brand text-white" to="/" style={{marginRight:"100px"}}>Spring Security Example</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
